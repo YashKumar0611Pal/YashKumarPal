@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Internship Task</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JavaScript Internship Task</h1>
+
+        <!-- Task 1 -->
+
+        <div class="card">
+
+            <h2>1. Change Button Color</h2>
+
+            <p>Click the button to change its background color.</p>
+
+            <button id="colorButton" onclick="changeColor()">
+                Click Me
+            </button>
+
+        </div>
+
+        <!-- Task 2 -->
+
+        <div class="card">
+
+            <h2>2. Greeting Message</h2>
+
+            <p>Click the button to display a greeting according to the current time.</p>
+
+            <button onclick="showGreeting()">
+                Show Greeting
+            </button>
+
+        </div>
+
+        <!-- Task 3 -->
+
+        <div class="card">
+
+            <h2>3. Simple Calculator</h2>
+
+            <input
+                type="number"
+                id="num1"
+                placeholder="Enter First Number">
+
+            <input
+                type="number"
+                id="num2"
+                placeholder="Enter Second Number">
+
+            <button onclick="calculateSum()">
+                Add Numbers
+            </button>
+
+            <h3 id="result">
+                Result:
+            </h3>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

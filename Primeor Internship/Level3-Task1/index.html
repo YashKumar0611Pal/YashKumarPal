@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Luxury Car Gallery</h1>
+
+    <!-- Main Image -->
+
+    <div class="main-image">
+
+        <img id="mainImage" src="car1.jpg">
+
+    </div>
+
+    <!-- Buttons -->
+
+    <div class="buttons">
+
+        <button onclick="previousImage()">◀ Previous</button>
+
+        <button onclick="nextImage()">Next ▶</button>
+
+    </div>
+
+    <!-- Thumbnails -->
+
+    <div class="gallery">
+
+        <img src="car1.jpg" onclick="showImage(this)">
+        <img src="car2.jpg" onclick="showImage(this)">
+        <img src="car3.jpg" onclick="showImage(this)">
+        <img src="car4.jpg" onclick="showImage(this)">
+        <img src="car5.jpg" onclick="showImage(this)">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
